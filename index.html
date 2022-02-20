@@ -2,44 +2,194 @@
 <html lang="tr-TR">
   <head>
     <!-- Gerekli Meta Tagleri oluşturulacak. -->
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <!-- Tutarsız tarayıcılar için dil tanımı yapılacak. -->
-    <meta http-equiv="Content-Language" content="tr">
+    <meta http-equiv="Content-Language" content="tr" />
     <!-- MIME Type türünü oluşturuyoruz. -->
-    <meta http-equiv="Content-Type" content="text/html">
+    <meta http-equiv="Content-Type" content="text/html" />
     <!--Internet explorer ve Microsoft edge için meta tanımı-->
-    <meta http-equiv="X-UA-Competible" content="IE=Edge">
+    <meta http-equiv="X-UA-Competible" content="IE=Edge" />
     <!--Responsive bir yapı için meta tagı tanımı-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
     <!--Favicon eklentisi-->
-    <link type="image/png" rel="icon" sizes="96x96" href="images/favicon.png">
+    <link type="image/png" rel="icon" sizes="96x96" href="images/favicon.png" />
     <!--Çeşitli botlar ve robotlar için bildirim tanımı-->
-    <meta name="robots" content="index, follow, noarchive">
+    <meta name="robots" content="index, follow, noarchive" />
     <!--Arama motorlarının sayfamıza ne kadar sürede ziyaret edeceğini tanımlıyoruz-->
-    <meta name="revisit-after" content="7 Days">
+    <meta name="revisit-after" content="7 Days" />
     <!--Siteye ziyaret edecek kitle tanımı-->
-    <meta name="rating" content="general">
+    <meta name="rating" content="general" />
     <!--Copyright tanımı-->
-    <meta name="copyright" content="Copyright &copy; 2022 Enver Amil her hakkı saklıdır.">
+    <meta
+      name="copyright"
+      content="Copyright &copy; 2022 Enver Amil her hakkı saklıdır."
+    />
     <!--Website sahibine nereden erişebileceğinin tanımı-->
-    <meta name="reply-to" content="info@info.com">
+    <meta name="reply-to" content="info@info.com" />
     <!--Website sahibi tanımı-->
-    <meta name="author" content="Enver Amil">
+    <meta name="author" content="Enver Amil" />
     <!--Website tasarımı yapan kişi tanımı-->
-    <meta name="designer" content="Enver Amil">
+    <meta name="designer" content="Enver Amil" />
     <!--Sayfanın hangi ide ile yapıldğını belli eden tanım-->
-    <meta name="generator" content="Vscode">
+    <meta name="generator" content="Vscode" />
     <!--Sayfa başlığı tanımı-->
     <title>Responsive Website</title>
     <!--Arama motorlarında çıkacak description tanımı-->
-    <meta name="description" content="Bu websitesi öğrenme amaçlı full responsive bir yapıya sahip olacaktır.">
+    <meta
+      name="description"
+      content="Bu websitesi öğrenme amaçlı full responsive bir yapıya sahip olacaktır."
+    />
     <!--Sayfa için anahtar kelimeler tanımlanacak-->
-    <meta name="keywords" content="website,responsive,html,css,js">
+    <meta name="keywords" content="website,responsive,html,css,js" />
     <!--Html içerisine harici css dosyasını tanımlıyoruz.-->
-    <link type="text/css" rel="stylesheet" href="style.css">
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    
     <!--Js kütüphanesi olan jqueryi ekliyoruz-->
-    <script type="text/javascript" lang="javascript" src="framework/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="./app.js"></script>
   </head>
   <body>
+    <!--Tüm içerikleri bir element içerisine alıyoruz. -->
+    <div id="allPageField">
+      <header>
+        <div id="headerField">
+          <div id="headerMessageField">
+            <img
+              id="headerimage1175x40"
+              src="images/header1175x40.png"
+              alt="header"
+              title="header"
+            />
+            <img
+              id="headerimage965x40"
+              src="images/header965x40.png"
+              alt="header"
+              title="header"
+            />
+            <img
+              id="headerimage740x30"
+              src="images/header740x30.png"
+              alt="header"
+              title="header"
+            />
+            <img
+              id="headerimage500x30"
+              src="images/header500x30.png"
+              alt="header"
+              title="header"
+            />
+            <img
+              id="headerimage295x25"
+              src="images/header295x25.png"
+              alt="header"
+              title="header"
+            />
+          </div>
+
+          <!--Menu alanı-->
+          <div id="headermenu">
+            <div id="headermenuust">
+              <div id="headermenuustsinirlama">
+                <ul id="headermenuustsecenekleralani">
+                  <li class="headermenuustsecenekleri">
+                    <a href="login.html" target="_top"
+                      ><ion-icon class="icon" name="log-in"></ion-icon>Giriş
+                      yap</a
+                    >
+                  </li>
+                  <li class="headermenuustsecenekleri">
+                    <a href="register.html" target="_top"
+                      ><ion-icon class="icon" name="person-add"></ion-icon>Üye
+                      Ol</a
+                    >
+                  </li>
+                  <li class="headermenuustsecenekleri">
+                    <a href="shopping.html" target="_top"
+                      ><ion-icon class="icon" name="basket"></ion-icon>Alışveriş
+                      Sepeti</a
+                    >
+                  </li>
+                </ul>
+
+                <!--Kullanıcı giriş yaptığı zaman kullanılacak alan tasarımı-->
+                <!-- <ul id="headermenuustsecenekleralani">
+                  <li class="headermenuustsecenekleri"><ion-icon name="person"></ion-icon></li>
+                  <li class="headermenuustsecenekleri">Hesabım</li>
+                  <li class="headermenuustsecenekleri"><ion-icon name="exit"></ion-icon></li>
+                  <li class="headermenuustsecenekleri">Çıkış Yap</li>
+                  <li class="headermenuustsecenekleri"><ion-icon name="basket"></ion-icon></li>
+                  <li class="headermenuustsecenekleri">Alışveriş Sepeti</li>
+                  
+
+                </ul> -->
+              </div>
+            </div>
+
+            <div id="headermenusınırlandırmaalanı">
+              <div id="headermenulogoalanı">
+                <img src="images/logo.png" alt="logo" title="logo" />
+              </div>
+
+              <div id="headermenunavalani">
+                <nav id="headermenunav">
+                  <ul id="headermenusecenekleralani">
+                    <li class="headermenusecenekleri">
+                      <a href="homepage.html" target="_top">Anasayfa</a>
+                    </li>
+                    <li class="headermenusecenekleri">
+                      <a href="about.html" target="_top">Hakkımızda</a>
+                    </li>
+                    <li class="headermenusecenekleri">
+                      <a href="projects.html" target="_top">Projects</a>
+                    </li>
+                    <li class="headermenusecenekleri">
+                      <a href="contact.html" target="_top">Contact</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+
+              <div id="headermenuacmabutonalanı">
+                <ion-icon name="reorder-three"></ion-icon>
+              </div>
+            </div>
+          </div>
+
+          <div id="headermenuacılınca" style="display: none;">
+            <div id="headermenuacmamenubutonu">
+              <ul id="headermenuacılırsecenekalani">
+                <li class="headermenuacılırmenusecenekleri">
+                  <a href="homepage.html" target="_top">Anasayfa</a>
+                </li>
+                <li class="headermenuacılırmenusecenekleri">
+                  <a href="about.html" target="_top">Hakkımızda</a>
+                </li>
+                <li class="headermenuacılırmenusecenekleri">
+                  <a href="projects.html" target="_top">Projects</a>
+                </li>
+                <li class="headermenuacılırmenusecenekleri">
+                  <a href="contact.html" target="_top">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main></main>
+
+      <footer></footer>
+    </div>
   </body>
 </html>
