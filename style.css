@@ -776,3 +776,19 @@ a ion-icon .icon {
   text-align: left;
   color: red;
 }
+main {
+  position: relative;
+  display: block;
+  z-index: 98;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  left: 0;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  text-align: center;
+}
