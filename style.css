@@ -285,7 +285,7 @@ body {
   border-bottom: 1px solid #ccc;
   outline: none;
   text-align: center;
-  background-color: red;
+  background-color: brown;
 }
 
 #headermenuust {
@@ -301,6 +301,7 @@ body {
   overflow: hidden;
   border: none;
   /* border-top: 2px solid #000; */
+  border-bottom: 1px solid white;
   outline: none;
   text-align: center;
   background-color: brown;
@@ -408,7 +409,7 @@ a ion-icon .icon {
   overflow: hidden;
   border: none;
   outline: none;
-  background-color: red;
+  background-color: brown;
   text-align: center;
 }
 @media only screen and (min-width: 1200px) {
@@ -521,7 +522,7 @@ a ion-icon .icon {
   overflow: hidden;
   border: none;
   outline: none;
-  background-color: red;
+  background-color: brown;
   text-align: right;
 }
 #headermenunav {
@@ -536,7 +537,7 @@ a ion-icon .icon {
   padding: 0;
   border: none;
   outline: none;
-  background-color: red;
+  background-color: brown;
   text-align: left;
 }
 
@@ -775,7 +776,7 @@ a ion-icon .icon {
   font-weight: normal;
   text-decoration: none;
   text-align: left;
-  color: red;
+  color: brown;
 }
 main {
   position: relative;
@@ -792,4 +793,404 @@ main {
   outline: none;
   background-color: #fff;
   text-align: center;
+}
+footer {
+  position: relative;
+  display: block;
+  z-index: 98;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  left: 0;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  text-align: center;
+}
+#footerMenulerAlani {
+  display: block;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  border: none;
+  outline: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-top: 1px solid green;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+#footerMenulerSinirlamaAlani {
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  border: none;
+  outline: none;
+  overflow: hidden;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #f9f9f9;
+}
+@media only screen and (min-width: 1200px) {
+  /* XL */
+  #footerMenulerSinirlamaAlani {
+    width: 1175px;
+    min-width: 1175px;
+    max-width: 1175px;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  /* L */
+  #footerMenulerSinirlamaAlani {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+  }
+}
+.footerMenuleriSutunlarAlani {
+  display: inline-block;
+  float: left;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  border: none;
+  outline: none;
+  text-align: left;
+  vertical-align: top;
+}
+@media only screen and (min-width: 1200px) {
+  /* XL */
+  .footerMenuleriSutunlarAlani {
+    width: 25%;
+    min-width: 25%;
+    max-width: 25%;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /* L */
+  .footerMenuleriSutunlarAlani {
+    width: 25%;
+    min-width: 25%;
+    max-width: 25%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* M */
+  .footerMenuleriSutunlarAlani {
+    width: 25%;
+    min-width: 25%;
+    max-width: 25%;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* S */
+  .footerMenuleriSutunlarAlani {
+    width: 50%;
+    min-width: 50%;
+    max-width: 50%;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  /* XS */
+  .footerMenuleriSutunlarAlani {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+  }
+}
+
+.footerMenuleriSutunlariBaslikAlani {
+  display: block;
+  width: -webkit- calc(100%-10px);
+  width: -moz- calc(100%-10px);
+  width: -o- calc(100%-10px);
+  width: -ms- calc(100%-10px);
+  width: calc(100%-10px);
+  min-width: -webkit- calc(100%-10px);
+  min-width: -moz- calc(100%-10px);
+  min-width: -o- calc(100%-10px);
+  min-width: -ms- calc(100%-10px);
+  min-width: calc(100%-10px);
+  max-width: -webkit- calc(100%-10px);
+  max-width: -moz- calc(100%-10px);
+  max-width: -o- calc(100%-10px);
+  max-width: -ms- calc(100%-10px);
+  max-width: calc(100%-10px);
+  height: auto;
+  margin: 0 auto;
+  margin-right: 30px;
+  margin-bottom: 5px;
+  padding: 0;
+  padding-bottom: 1px;
+  overflow: hidden;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 600;
+  text-align: left;
+  text-decoration: none;
+  line-height: 1.5;
+}
+@media only screen and (min-width: 1200px) {
+  /* XL */
+  .footerMenuleriSutunlariBaslikAlani {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /* L */
+  .footerMenuleriSutunlariBaslikAlani {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* M */
+  .footerMenuleriSutunlariBaslikAlani {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* S */
+  .footerMenuleriSutunlariBaslikAlani {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  /* XS */
+  .footerMenuleriSutunlariBaslikAlani {
+    font-size: 12px;
+  }
+}
+.footerMenuleriSutunlariMenularAlani {
+  display: block;
+  width: -webkit- calc(100%-10px);
+  width: -moz- calc(100%-10px);
+  width: -o- calc(100%-10px);
+  width: -ms- calc(100%-10px);
+  width: calc(100%-10px);
+  min-width: -webkit- calc(100%-10px);
+  min-width: -moz- calc(100%-10px);
+  min-width: -o- calc(100%-10px);
+  min-width: -ms- calc(100%-10px);
+  min-width: calc(100%-10px);
+  max-width: -webkit- calc(100%-10px);
+  max-width: -moz- calc(100%-10px);
+  max-width: -o- calc(100%-10px);
+  max-width: -ms- calc(100%-10px);
+  max-width: calc(100%-10px);
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  overflow: hidden;
+  border: none;
+  outline: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #646464;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-align: left;
+  text-decoration: none;
+  line-height: 1.5;
+}
+@media only screen and (min-width: 1200px) {
+  /* XL */
+  .footerMenuleriSutunlariMenularAlani {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /* L */
+  .footerMenuleriSutunlariMenularAlani {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* M */
+  .footerMenuleriSutunlariMenularAlani {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* S */
+  .footerMenuleriSutunlariMenularAlani {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  /* XS */
+  .footerMenuleriSutunlariMenularAlani {
+    font-size: 12px;
+  }
+}
+
+.footerMenuleriSutunlariMenularAlani a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #646464;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-decoration: none;
+}
+.footerMenuleriSutunlariMenularAlani a:link,
+.footerMenuleriSutunlariMenularAlani a:active,
+.footerMenuleriSutunlariMenularAlani a:visited {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #646464;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-decoration: none;
+}
+.footerMenuleriSutunlariMenularAlani a:hover {
+  font-family: Arial, Helvetica, sans-serif;
+  color: darkblue;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-decoration: underline;
+}
+.logospecialfield {
+  display: inline-block;
+  width: -webkit- calc(100%-10px);
+  width: -moz- calc(100%-10px);
+  width: -o- calc(100%-10px);
+  width: -ms- calc(100%-10px);
+  width: calc(100%-10px);
+  min-width: -webkit- calc(100%-10px);
+  min-width: -moz- calc(100%-10px);
+  min-width: -o- calc(100%-10px);
+  min-width: -ms- calc(100%-10px);
+  min-width: calc(100%-10px);
+  max-width: -webkit- calc(100%-10px);
+  max-width: -moz- calc(100%-10px);
+  max-width: -o- calc(100%-10px);
+  max-width: -ms- calc(100%-10px);
+  max-width: calc(100%-10px);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-decoration: none;
+  padding: 0;
+  padding-top: 5px;
+  padding-right: 25px;
+  border: none;
+  outline: none;
+  margin: 0 auto;
+}
+.logospecialfield a {
+  color: brown;
+}
+#footerAltMetinAlanı {
+  display: block;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: none;
+  border-top: 1px solid #ccc;
+  outline: none;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+.footerAltMetinSinirlandirmaAlani {
+  display: block;
+  width: -webkit- calc(100%-10px);
+  width: -moz- calc(100%-10px);
+  width: -o- calc(100%-10px);
+  width: -ms- calc(100%-10px);
+  width: calc(100%-10px);
+  min-width: -webkit- calc(100%-10px);
+  min-width: -moz- calc(100%-10px);
+  min-width: -o- calc(100%-10px);
+  min-width: -ms- calc(100%-10px);
+  min-width: calc(100%-10px);
+  max-width: -webkit- calc(100%-10px);
+  max-width: -moz- calc(100%-10px);
+  max-width: -o- calc(100%-10px);
+  max-width: -ms- calc(100%-10px);
+  max-width: calc(100%-10px);
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  padding-right: 5px;
+  padding-left: 5px;
+  overflow: hidden;
+  border: none;
+  outline: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #646464;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-align: center;
+  text-decoration: none;
+  line-height: 1.5;
+}
+@media only screen and (min-width: 1200px) {
+  /* XL */
+  .footerAltMetinSinirlandirmaAlani {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /* L */
+  .footerAltMetinSinirlandirmaAlani {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* M */
+  .footerAltMetinSinirlandirmaAlani {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* S */
+  .footerAltMetinSinirlandirmaAlani {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  /* XS */
+  .footerAltMetinSinirlandirmaAlani {
+    font-size: 12px;
+  }
 }
