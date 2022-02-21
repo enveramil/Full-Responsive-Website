@@ -901,6 +901,9 @@ footer {
     min-width: 50%;
     max-width: 50%;
   }
+  .footerMenuleriTemizlemeAlanı {
+    clear: both;
+  }
 }
 
 @media only screen and (max-width: 575px) {
@@ -1193,4 +1196,413 @@ footer {
   .footerAltMetinSinirlandirmaAlani {
     font-size: 12px;
   }
+}
+#SonucSayfalariAlani {
+  position: relative;
+  display: block;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  border: none;
+  outline: none;
+  background-color: #eee;
+  text-align: center;
+}
+@media only screen and (min-width: 1200px) {
+  /* XL */
+  #SonucSayfalariAlani {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  /* L */
+  #SonucSayfalariAlani {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
+#SonucSayfalariSinirlamaAlani {
+  position: relative;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  outline: none;
+  background-color: #fff;
+  text-align: center;
+  vertical-align: middle;
+}
+@media only screen and (min-width: 1200px) {
+  /* XL */
+  #SonucSayfalariSinirlamaAlani {
+    width: -webkit- calc(1175px - 12px);
+    width: -moz- calc(1175px - 12px);
+    width: -o- calc(1175px - 12px);
+    width: -ms- calc(1175px - 12px);
+    width: calc(1175px - 12px);
+    min-width: -webkit- calc(1175px - 12px);
+    min-width: -moz- calc(1175px - 12px);
+    min-width: -o- calc(1175px - 12px);
+    min-width: -ms- calc(1175px - 12px);
+    min-width: calc(1175px - 12px);
+    max-width: -webkit- calc(1175px - 12px);
+    max-width: -moz- calc(1175px - 12px);
+    max-width: -o- calc(1175px - 12px);
+    max-width: -ms- calc(1175px - 12px);
+    max-width: calc(1175px - 12px);
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  /* L */
+  #SonucSayfalariSinirlamaAlani {
+    width: -webkit- calc(100%-12px);
+    width: -moz- calc(100%-12px);
+    width: -o- calc(100%-12px);
+    width: -ms- calc(100%-12px);
+    width: calc(100%-12px);
+    min-width: -webkit- calc(100%-12px);
+    min-width: -moz- calc(100%-12px);
+    min-width: -o- calc(100%-12px);
+    min-width: -ms- calc(100%-12px);
+    min-width: calc(100%-12px);
+    max-width: -webkit- calc(100%-12px);
+    max-width: -moz- calc(100%-12px);
+    max-width: -o- calc(100%-12px);
+    max-width: -ms- calc(100%-12px);
+    max-width: calc(100%-12px);
+  }
+}
+#SonucSayfalariBilgiAlanı {
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  text-align: center;
+}
+@media only screen and (min-width: 1200px) {
+  /* XL */
+  #SonucSayfalariBilgiAlanı {
+    width: -webkit- calc(100% - 40px);
+    width: -moz- calc(100% - 40px);
+    width: -o- calc(100% - 40px);
+    width: -ms- calc(100% - 40px);
+    width: calc(100% - 40px);
+    min-width: -webkit- calc(100% - 40px);
+    min-width: -moz- calc(100% - 40px);
+    min-width: -o- calc(100% - 40px);
+    min-width: -ms- calc(100% - 40px);
+    min-width: calc(100% - 40px);
+    max-width: -webkit- calc(100% - 40px);
+    max-width: -moz- calc(100% - 40px);
+    max-width: -o- calc(100% - 40px);
+    max-width: -ms- calc(100% - 40px);
+    max-width: calc(100% - 40px);
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /* L */
+  #SonucSayfalariBilgiAlanı {
+    width: -webkit- calc(100% - 36px);
+    width: -moz- calc(100% - 36px);
+    width: -o- calc(100% - 36px);
+    width: -ms- calc(100% - 36px);
+    width: calc(100% - 36px);
+    min-width: -webkit- calc(100% - 36px);
+    min-width: -moz- calc(100% - 36px);
+    min-width: -o- calc(100% - 36px);
+    min-width: -ms- calc(100% - 36px);
+    min-width: calc(100% - 36px);
+    max-width: -webkit- calc(100% - 36px);
+    max-width: -moz- calc(100% - 36px);
+    max-width: -o- calc(100% - 36px);
+    max-width: -ms- calc(100% - 36px);
+    max-width: calc(100% - 36px);
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* M */
+  #SonucSayfalariBilgiAlanı {
+    width: -webkit- calc(100% - 32px);
+    width: -moz- calc(100% - 32px);
+    width: -o- calc(100% - 32px);
+    width: -ms- calc(100% - 32px);
+    width: calc(100% - 32px);
+    min-width: -webkit- calc(100% - 32px);
+    min-width: -moz- calc(100% - 32px);
+    min-width: -o- calc(100% - 32px);
+    min-width: -ms- calc(100% - 32px);
+    min-width: calc(100% - 32px);
+    max-width: -webkit- calc(100% - 32px);
+    max-width: -moz- calc(100% - 32px);
+    max-width: -o- calc(100% - 32px);
+    max-width: -ms- calc(100% - 32px);
+    max-width: calc(100% - 32px);
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* S */
+  #SonucSayfalariBilgiAlanı {
+    width: -webkit- calc(100% - 28px);
+    width: -moz- calc(100% - 28px);
+    width: -o- calc(100% - 28px);
+    width: -ms- calc(100% - 28px);
+    width: calc(100% - 28px);
+    min-width: -webkit- calc(100% - 28px);
+    min-width: -moz- calc(100% - 28px);
+    min-width: -o- calc(100% - 28px);
+    min-width: -ms- calc(100% - 28px);
+    min-width: calc(100% - 28px);
+    max-width: -webkit- calc(100% - 28px);
+    max-width: -moz- calc(100% - 28px);
+    max-width: -o- calc(100% - 28px);
+    max-width: -ms- calc(100% - 28px);
+    max-width: calc(100% - 28px);
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  /* XS */
+  #SonucSayfalariBilgiAlanı {
+    width: -webkit- calc(100% - 24px);
+    width: -moz- calc(100% - 24px);
+    width: -o- calc(100% - 24px);
+    width: -ms- calc(100% - 24px);
+    width: calc(100% - 24px);
+    min-width: -webkit- calc(100% - 24px);
+    min-width: -moz- calc(100% - 24px);
+    min-width: -o- calc(100% - 24px);
+    min-width: -ms- calc(100% - 24px);
+    min-width: calc(100% - 24px);
+    max-width: -webkit- calc(100% - 24px);
+    max-width: -moz- calc(100% - 24px);
+    max-width: -o- calc(100% - 24px);
+    max-width: -ms- calc(100% - 24px);
+    max-width: calc(100% - 24px);
+  }
+}
+#SonucSayfalariİslemİconAlanı {
+  display: block;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+@media only screen and (min-width: 1200px) {
+  /* XL */
+  #SonucSayfalariİslemİconAlanı {
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /* L */
+  #SonucSayfalariİslemİconAlanı {
+    margin-top: 35px;
+    margin-bottom: 18px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* M */
+  #SonucSayfalariİslemİconAlanı {
+    margin-top: 30px;
+    margin-bottom: 16px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* S */
+  #SonucSayfalariİslemİconAlanı {
+    margin-top: 25px;
+    margin-bottom: 14px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  /* XS */
+  #SonucSayfalariİslemİconAlanı {
+    margin-top: 20px;
+    margin-bottom: 12px;
+  }
+}
+#SonucSayfalariİslemİconAlanı ion-icon {
+  display: block;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: 50px;
+  margin: 0 auto;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+#SonucSayfalariBaslikAlani {
+  display: block;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #646464;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 600;
+  line-height: 120%;
+  text-align: center;
+  text-decoration: none;
+}
+@media only screen and (min-width: 1200px) {
+  /* XL */
+  #SonucSayfalariBaslikAlani {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /* L */
+  #SonucSayfalariBaslikAlani {
+    font-size: 13px;
+    margin-bottom: 18px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* M */
+  #SonucSayfalariBaslikAlani {
+    font-size: 12px;
+    margin-bottom: 16px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* S */
+  #SonucSayfalariBaslikAlani {
+    font-size: 12px;
+    margin-bottom: 14px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  /* XS */
+  #SonucSayfalariBaslikAlani {
+    font-size: 12px;
+    margin-bottom: 12px;
+  }
+}
+#SonucSayfalariIcerikAlani {
+  display: block;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #646464;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 120%;
+  text-align: center;
+  text-decoration: none;
+}
+@media only screen and (min-width: 1200px) {
+  /* XL */
+  #SonucSayfalariIcerikAlani {
+    font-size: 14px;
+    margin-bottom: 45px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /* L */
+  #SonucSayfalariIcerikAlani {
+    font-size: 13px;
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* M */
+  #SonucSayfalariIcerikAlani {
+    font-size: 12px;
+    margin-bottom: 35px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* S */
+  #SonucSayfalariIcerikAlani {
+    font-size: 12px;
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  /* XS */
+  #SonucSayfalariIcerikAlani {
+    font-size: 12px;
+    margin-bottom: 25px;
+  }
+}
+#SonucSayfalariIcerikAlani a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #646464;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 600;
+  text-decoration: none;
+}
+#SonucSayfalariIcerikAlani a:link,
+a:active,
+a:visited {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #646464;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 600;
+  text-decoration: none;
+}
+#SonucSayfalariIcerikAlani a:hover {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 600;
+  text-decoration: underline;
 }
