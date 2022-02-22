@@ -1606,3 +1606,346 @@ a:visited {
   font-weight: 600;
   text-decoration: underline;
 }
+#tamsayfacercevealani {
+  position: relative;
+  display: block;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  border: none;
+  outline: none;
+  background-color: #eee;
+  text-align: center;
+}
+@media only screen and (min-width: 1200px) {
+  /* XL */
+  #tamsayfacercevealani {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  /* L */
+  #tamsayfacercevealani {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
+#tamsayfacercevesinirlandirmaalani {
+  position: relative;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  border: 1px solid #ddd;
+  outline: none;
+  overflow: hidden;
+  background-color: #fff;
+  text-align: center;
+}
+@media only screen and (min-width: 1200px) {
+  /* XL */
+  #tamsayfacercevesinirlandirmaalani {
+    width: -webkit- calc(1175px - 52px);
+    width: -moz- calc(1175px - 52px);
+    width: -o- calc(1175px - 52px);
+    width: -ms- calc(1175px - 52px);
+    width: calc(1175px - 52px);
+    min-width: -webkit- calc(1175px - 52px);
+    min-width: -moz- calc(1175px - 52px);
+    min-width: -o- calc(1175px - 52px);
+    min-width: -ms- calc(1175px - 52px);
+    min-width: calc(1175px - 52px);
+    max-width: -webkit- calc(1175px - 52px);
+    max-width: -moz- calc(1175px - 52px);
+    max-width: -o- calc(1175px - 52px);
+    max-width: -ms- calc(1175px - 52px);
+    max-width: calc(1175px - 52px);
+    padding: 20px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /* L */
+  #tamsayfacercevesinirlandirmaalani {
+    width: -webkit- calc(100% - 48px);
+    width: -moz- calc(100% - 48px);
+    width: -o- calc(100% - 48px);
+    width: -ms- calc(100% - 48px);
+    width: calc(100% - 48px);
+    min-width: -webkit- calc(100% - 48px);
+    min-width: -moz- calc(100% - 48px);
+    min-width: -o- calc(100% - 48px);
+    min-width: -ms- calc(100% - 48px);
+    min-width: calc(100% - 48px);
+    max-width: -webkit- calc(100% - 48px);
+    max-width: -moz- calc(100% - 48px);
+    max-width: -o- calc(100% - 48px);
+    max-width: -ms- calc(100% - 48px);
+    max-width: calc(100% - 48px);
+    padding: 18px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* M */
+  #tamsayfacercevesinirlandirmaalani {
+    width: -webkit- calc(100% - 44px);
+    width: -moz- calc(100% - 44px);
+    width: -o- calc(100% - 44px);
+    width: -ms- calc(100% - 44px);
+    width: calc(100% - 44px);
+    min-width: -webkit- calc(100% - 44px);
+    min-width: -moz- calc(100% - 44px);
+    min-width: -o- calc(100% - 44px);
+    min-width: -ms- calc(100% - 44px);
+    min-width: calc(100% - 44px);
+    max-width: -webkit- calc(100% - 44px);
+    max-width: -moz- calc(100% - 44px);
+    max-width: -o- calc(100% - 44px);
+    max-width: -ms- calc(100% - 44px);
+    max-width: calc(100% - 44px);
+    padding: 16px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* S */
+  #tamsayfacercevesinirlandirmaalani {
+    width: -webkit- calc(100% - 40px);
+    width: -moz- calc(100% - 40px);
+    width: -o- calc(100% - 40px);
+    width: -ms- calc(100% - 40px);
+    width: calc(100% - 40px);
+    min-width: -webkit- calc(100% - 40px);
+    min-width: -moz- calc(100% - 40px);
+    min-width: -o- calc(100% - 40px);
+    min-width: -ms- calc(100% - 40px);
+    min-width: calc(100% - 40px);
+    max-width: -webkit- calc(100% - 40px);
+    max-width: -moz- calc(100% - 40px);
+    max-width: -o- calc(100% - 40px);
+    max-width: -ms- calc(100% - 40px);
+    max-width: calc(100% - 40px);
+    padding: 14px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  /* XS */
+  #tamsayfacercevesinirlandirmaalani {
+    width: -webkit- calc(100% - 36px);
+    width: -moz- calc(100% - 36px);
+    width: -o- calc(100% - 36px);
+    width: -ms- calc(100% - 36px);
+    width: calc(100% - 36px);
+    min-width: -webkit- calc(100% - 36px);
+    min-width: -moz- calc(100% - 36px);
+    min-width: -o- calc(100% - 36px);
+    min-width: -ms- calc(100% - 36px);
+    min-width: calc(100% - 36px);
+    max-width: -webkit- calc(100% - 36px);
+    max-width: -moz- calc(100% - 36px);
+    max-width: -o- calc(100% - 36px);
+    max-width: -ms- calc(100% - 36px);
+    max-width: calc(100% - 36px);
+    padding: 12px;
+  }
+}
+
+#tamsayfacerceveyuzdeyuzalan {
+  display: block;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  text-align: center;
+}
+#tamsayfacercevebaslikalani {
+  display: block;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  padding: 0;
+  overflow: hidden;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  outline: none;
+  background-color: #fff;
+  text-align: center;
+}
+@media only screen and (min-width: 1200px) {
+  /* XL */
+  #tamsayfacercevebaslikalani {
+    padding-bottom: 18px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /* L */
+  #tamsayfacercevebaslikalani {
+    padding-bottom: 16px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* M */
+  #tamsayfacercevebaslikalani {
+    padding-bottom: 14px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* S */
+  #tamsayfacercevebaslikalani {
+    padding-bottom: 12px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  /* XS */
+  #tamsayfacercevebaslikalani {
+    padding-bottom: 10px;
+  }
+}
+#tamsayfaustbaslikalani {
+  display: block;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f90;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 600;
+  line-height: 120%;
+  text-decoration: none;
+  font-size: 20px;
+}
+@media only screen and (min-width: 1200px) {
+  /* XL */
+  #tamsayfaustbaslikalani {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /* L */
+  #tamsayfaustbaslikalani {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  /* M */
+  #tamsayfaustbaslikalani {
+    font-size: 16px;
+  }
+}
+
+#tamsayfaaltbaslikalani {
+  display: block;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #646464;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 120%;
+  text-decoration: none;
+  font-size: 20px;
+}
+@media only screen and (min-width: 1200px) {
+  /* XL */
+  #tamsayfaaltbaslikalani {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /* L */
+  #tamsayfaaltbaslikalani {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  /* M */
+  #tamsayfaaltbaslikalani {
+    font-size: 12px;
+  }
+}
+#tamsayfagenelmetinalani {
+  position: relative;
+  display: block;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #646464;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 130%;
+  text-decoration: none;
+  font-size: 20px;
+}
+@media only screen and (min-width: 1200px) {
+  /* XL */
+  #tamsayfagenelmetinalani {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /* L */
+  #tamsayfagenelmetinalani {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  /* M */
+  #tamsayfagenelmetinalani {
+    font-size: 12px;
+  }
+}
