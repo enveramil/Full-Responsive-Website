@@ -119,4 +119,37 @@ jQuery("footer").css("top",ofsetValue);
 
 });
 
+
+/* SSS İÇERİK GÖSTER / GİZLE */
+
+$.showInside = function(id) {
+    var question_id = id;
+    var question_field = "#" + question_id;
+    
+    $(".sorucevapalani").slideUp();
+    $(question_field).parent().find(".sorucevapalani").slideToggle();
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 });

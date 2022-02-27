@@ -2117,3 +2117,512 @@ a:visited {
     font-size: 10px;
   }
 }
+
+#sayfagecisalanlari {
+  display: block;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+
+#sayfatoplamsayisi {
+  display: block;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 5px;
+  padding: 0;
+  overflow: hidden;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #646464;
+  line-height: 1.5;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-align: center;
+  text-decoration: none;
+}
+@media only screen and (min-width: 1200px) {
+  /* XL */
+  #sayfatoplamsayisi {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /* L */
+  #sayfatoplamsayisi {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  /* M */
+  #sayfatoplamsayisi {
+    font-size: 12px;
+  }
+}
+
+#sayfagecisikonlari {
+  display: block;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 5px;
+  padding: 0;
+  overflow: hidden;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+
+.pasifalan {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  margin-right: 1px;
+  padding: 3px 3px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  outline: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #646464;
+  line-height: 120%;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+.pasifalan:hover {
+  background-color: red;
+}
+@media only screen and (min-width: 1200px) {
+  /* XL */
+  .pasifalan {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /* L */
+  .pasifalan {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  /* M */
+  .pasifalan {
+    font-size: 12px;
+  }
+}
+
+.pasifalan:hover {
+  border: 1px solid #999;
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+.pasifalan a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f90;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-decoration: none;
+}
+.pasifalan a:link a:active a:visited {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #646464;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-decoration: none;
+}
+.pasifalan a:hover {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f90;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-decoration: none;
+}
+
+.aktifalan {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  margin-right: 1px;
+  padding: 3px 3px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  outline: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #646464;
+  line-height: 120%;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+.aktifalan:hover {
+  background-color: red;
+}
+@media only screen and (min-width: 1200px) {
+  /* XL */
+  .aktifalan {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /* L */
+  .aktifalan {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  /* M */
+  .aktifalan {
+    font-size: 12px;
+  }
+}
+
+.aktifalan:hover {
+  border: 1px solid #999;
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+.aktifalan a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-decoration: none;
+}
+.aktifalan a:link a:active a:visited {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #646464;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-decoration: none;
+}
+.aktifalan a:hover {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f90;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-decoration: none;
+}
+
+.kategorimetinalani {
+  display: block;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+  padding-top: 5px;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  color: darkblue;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 600;
+  line-height: 150%;
+  text-decoration: none;
+}
+/* Ekran boyutuna göre @media kullanılarak responsive tasarım kullanılacak. */
+@media only screen and (min-width: 1200px) {
+  /* XL */
+  .kategorimetinalani {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /* L */
+  .kategorimetinalani {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* M */
+  .kategorimetinalani {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* S */
+  .kategorimetinalani {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  /* S */
+  .kategorimetinalani {
+    font-size: 16px;
+  }
+}
+
+.soruvecevapalani {
+  display: block;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  background-color: #fff;
+  text-align: left;
+  text-decoration: none;
+}
+.sorubasligi {
+  display: block;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #646464;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 600;
+  line-height: 120%;
+  text-align: left;
+  text-decoration: none;
+}
+/* Ekran boyutuna göre @media kullanılarak responsive tasarım kullanılacak. */
+@media only screen and (min-width: 1200px) {
+  /* XL */
+  .sorubasligi {
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /* L */
+  .sorubasligi {
+    font-size: 13px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* M */
+  .sorubasligi {
+    font-size: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* S */
+  .sorubasligi {
+    font-size: 12px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  /* S */
+  .sorubasligi {
+    font-size: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+}
+.sorubasligi:hover {
+  display: block;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+  border: none;
+  outline: none;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #646464;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 600;
+  line-height: 120%;
+  text-align: left;
+  text-decoration: none;
+}
+/* Ekran boyutuna göre @media kullanılarak responsive tasarım kullanılacak. */
+@media only screen and (min-width: 1200px) {
+  /* XL */
+  .sorubasligi:hover {
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /* L */
+  .sorubasligi:hover {
+    font-size: 13px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* M */
+  .sorubasligi:hover {
+    font-size: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* S */
+  .sorubasligi:hover {
+    font-size: 12px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  /* S */
+  .sorubasligi:hover {
+    font-size: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+}
+.sorucevapalani {
+  display: block;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #646464;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 120%;
+  text-align: left;
+  text-decoration: none;
+}
+/* Ekran boyutuna göre @media kullanılarak responsive tasarım kullanılacak. */
+@media only screen and (min-width: 1200px) {
+  /* XL */
+  .sorucevapalani {
+    font-size: 14px;
+    padding-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /* L */
+  .sorucevapalani {
+    font-size: 13px;
+    padding-bottom: 9px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* M */
+  .sorucevapalani {
+    font-size: 12px;
+    padding-bottom: 8px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* S */
+  .sorucevapalani {
+    font-size: 12px;
+    padding-bottom: 7px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  /* S */
+  .sorucevapalani {
+    font-size: 12px;
+    padding-bottom: 6px;
+  }
+}
